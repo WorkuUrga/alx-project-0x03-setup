@@ -1,3 +1,7 @@
+export interface PageRouteProps {
+  pageRoute: string;
+}
+
 export interface ButtonProps {
   buttonLabel: string;
   buttonSize?: string;
@@ -6,9 +10,5 @@ export interface ButtonProps {
 }
 
 export interface LayoutProps {
-  children: ReactNode;
-}
-
-export interface PageRouteProps {
-  pageRoute: string;
+  children: React.ReactNode;
 }
